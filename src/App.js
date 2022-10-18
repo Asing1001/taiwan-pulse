@@ -19,18 +19,18 @@ const darkTheme = createTheme({
 });
 
 function App() {
-  const [value, setValue] = useState()
+  const [value, setValue] = useState(0)
   return (
 
     <ThemeProvider theme={darkTheme}>
 
       <Container maxWidth="sm" className="safe-top">
 
-        <TaiwanSchedule />
+        {value === 0 && <TaiwanSchedule />}
         <Box>
           <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
             <BottomNavigation
-              className="safe-bottom" 
+              className="safe-bottom"
               showLabels
               value={value}
               onChange={(event, newValue) => {
