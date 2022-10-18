@@ -7,14 +7,10 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import Paper from '@mui/material/Paper';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import ListItemText from '@mui/material/ListItemText';
-import Avatar from '@mui/material/Avatar';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import { useState } from 'react';
 import TaiwanSchedule from "./TaiwanSchedule";
+import './App.css'
 
 const darkTheme = createTheme({
   palette: {
@@ -28,11 +24,13 @@ function App() {
 
     <ThemeProvider theme={darkTheme}>
 
-      <Container maxWidth="sm">
+      <Container maxWidth="sm" className="safe-top">
+
         <TaiwanSchedule />
         <Box>
           <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
             <BottomNavigation
+              className="safe-bottom" 
               showLabels
               value={value}
               onChange={(event, newValue) => {
