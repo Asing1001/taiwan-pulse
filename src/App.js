@@ -10,6 +10,7 @@ import Paper from '@mui/material/Paper';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import { useState } from 'react';
 import TaiwanSchedule from "./TaiwanSchedule";
+import Introduction from "./Introduction";
 import './App.css'
 
 const darkTheme = createTheme({
@@ -27,6 +28,7 @@ function App() {
       <Container maxWidth="sm" className="safe-top">
 
         {value === 0 && <TaiwanSchedule />}
+        {value === 1 && <Introduction />}
         <Box>
           <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
             <BottomNavigation
