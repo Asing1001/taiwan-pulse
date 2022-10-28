@@ -26,9 +26,10 @@ function App() {
     <ThemeProvider theme={darkTheme}>
 
       <Container maxWidth="sm" className="safe-top">
-
+        <Box sx={{mb:10}}>
         {value === 0 && <TaiwanSchedule />}
         {value === 1 && <Introduction />}
+        </Box>
         <Box>
           <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
             <BottomNavigation
