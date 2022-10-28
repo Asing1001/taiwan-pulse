@@ -6,8 +6,9 @@ import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
 import Slide from '@mui/material/Slide';
+import IconButton from '@mui/material/IconButton';
+import CallIcon from '@mui/icons-material/Call';
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -40,10 +41,18 @@ export default function HideAppBar(props) {
       <CssBaseline />
       <HideOnScroll {...props}>
         <AppBar>
-          <Toolbar>
-            <Typography variant="h6" component="div">
+          <Toolbar sx={{ justifyContent: "space-between" }}>
+            <Typography variant="h6" component="div" fontWeight={"bold"}>
+              <IconButton >
+              <img src='/logo192.png' height="32px" alt='logo' />
+              </IconButton>
               Taiwan Pulse
             </Typography>
+            <Box sx={{ flexGrow: 0 }}>
+              <IconButton onClick={()=> window.open('tel:+886921056714')}>
+                <CallIcon />
+              </IconButton>
+            </Box>
           </Toolbar>
         </AppBar>
       </HideOnScroll>
