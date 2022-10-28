@@ -12,6 +12,7 @@ import { useState } from 'react';
 import TaiwanSchedule from "./TaiwanSchedule";
 import Introduction from "./Introduction";
 import Spotlight from "./Spotlight";
+import HideAppBar from "./HideAppBar";
 import './App.css'
 
 const darkTheme = createTheme({
@@ -25,7 +26,7 @@ function App() {
   return (
 
     <ThemeProvider theme={darkTheme}>
-
+      <HideAppBar />
       <Container maxWidth="sm" className="safe-top">
 
         <Box sx={{mb:10}}>
