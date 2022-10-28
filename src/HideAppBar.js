@@ -49,7 +49,7 @@ export default function HideAppBar(props) {
               Taiwan Pulse
             </Typography>
             <Box sx={{ flexGrow: 0 }}>
-              <IconButton onClick={()=> window.open('tel:+886921056714')}>
+              <IconButton onClick={()=> window.open('tel:+886921056714', '_self')}>
                 <CallIcon />
               </IconButton>
             </Box>
