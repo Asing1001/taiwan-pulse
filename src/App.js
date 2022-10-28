@@ -18,7 +18,7 @@ import './App.css'
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
-  },
+  },spacing:4
 });
 
 function App() {
