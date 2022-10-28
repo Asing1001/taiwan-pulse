@@ -11,6 +11,7 @@ import MenuBookIcon from '@mui/icons-material/MenuBook';
 import { useState } from 'react';
 import TaiwanSchedule from "./TaiwanSchedule";
 import Introduction from "./Introduction";
+import Spotlight from "./Spotlight";
 import './App.css'
 
 const darkTheme = createTheme({
@@ -26,9 +27,11 @@ function App() {
     <ThemeProvider theme={darkTheme}>
 
       <Container maxWidth="sm" className="safe-top">
+
         <Box sx={{mb:10}}>
         {value === 0 && <TaiwanSchedule />}
         {value === 1 && <Introduction />}
+        {value === 2 && <Spotlight />}
         </Box>
         <Box>
           <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
