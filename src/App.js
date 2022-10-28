@@ -34,9 +34,8 @@ function App() {
         {value === 2 && <Spotlight />}
         </Box>
         <Box>
-          <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
+          <Paper className="safe-bottom" sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
             <BottomNavigation
-              className="safe-bottom"
               showLabels
               value={value}
               onChange={(event, newValue) => {
