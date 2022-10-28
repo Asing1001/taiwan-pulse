@@ -26,7 +26,7 @@ function App() {
   return (
 
     <ThemeProvider theme={darkTheme}>
-      <HideAppBar />
+      {value !== 2 && <HideAppBar />}
       <Container maxWidth="sm" className="safe-top">
 
         <Box sx={{mb:10}}>
