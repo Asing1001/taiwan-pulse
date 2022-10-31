@@ -61,7 +61,7 @@ const days = [{
     title: 'Meeting up at lobby', 
     location: 'Take HSR to Kaohsiung', 
     description: `Take HSR (08:31AM) to Kaohsiung (10:05AM)`,
-    image: ''
+    image: 'D1My灶.jpeg'
   },{
     time: '10:40', 
     title: 'Touring & Local government meeting', 
@@ -70,7 +70,13 @@ const days = [{
     image: 'D2高雄展覽館.jpg'
   },{
     time: '12:20', 
-    title: 'Lunch & touring', 
+    title: 'Thomas Chien Restaurant', 
+    location: 'Thomas Chien', 
+    description: `Michelin Guide recommendation. Not only has Chef Chien got culinary acumen and all the classic French techniques, but he also cares for his carbon footprint and sustainability of food sources. By eating here, you'll be supporting small local farms and fishing communities. His set menus use mostly local, seasonal ingredients and his lunch menus change monthly to keep them fresh. From time to time, top guest chefs are invited from overseas to broaden diners' gastronomic horizons.`,
+    image: 'D2Thomas Chien.jpg'
+  },{
+    time: '13:50', 
+    title: 'Touring', 
     location: 'TAI Urban Resort', 
     description: `The newest five-star hotel, opened in 2022, built under cooperation of the Bureau of Cultural Affairs from Kaohsiung City Government and Chanyee Hotelday Co., LTD. World’s only library co-constructed five-star hotel that promotes delicate travel and reading culture. The world’s only high-altitude-transparent-infinity pool on floor 24, the transparent design brings an illusion of the pool floating in the sky above Kaohsiung city, along with the same high-altitude bar: Bar Kao, in which you can enjoy a 360-degree view. There are 208 guest rooms, the hotel also facilitates a bookstore from a Taiwan brand Blue & Book, a gym club, a spa with all kinds of beauty services (cosmetic, manicure, massage and more.) and a Liquor & Cigar bar.`,
     image: 'D2承億-1.jpg'
@@ -93,6 +99,52 @@ const days = [{
     location: 'Kaohsiung Marriott Hotel', 
     description: `Kaohsiung is a harbor city, we proudly present our guests fresh sea food straight from the ocean, and the best sea view at the top of the hotel building. After a meal we will arrange a hotel show room visit to see the conference rooms and ballrooms from 8th to 11th floor, total interior space will be over 30 thousand square meters, over which the highlight will be the major ballroom on the 8th floor: spaced 2800 square meters, 11 meters to the ceiling, 220 big tables capacity, with a giant LED monitor in the middle of the ballroom (28x6 meters) equipped also with the best surrounding sound system, easily digest any huge business event or wedding party. Two floating halls and an outdoor marriage notary space.`,
     image: 'D2高雄萬豪2.jpg'
+  },]
+},{
+  title:'Nov. 10 (Thu) - DAY3・MEDIA TOUR（Kaohsiung→Tainan）',
+  schedules: [{
+    time: '09:30', 
+    title: 'Meeting-up', 
+    location: 'Bus transport', 
+    description: `Bus transport`,
+    image: ''
+  },{
+    time: '10:00', 
+    title: 'Touring & Local government meeting', 
+    location: 'Tainan Convention & Exhibition Center ', 
+    description: `Located in Tainan City's High Speed Rail Industrial Zone, it accommodates 600 standard-sized booths and offers 11 conference rooms of various sizes. The Center officially opens in the first half of 2022.`,
+    image: 'D3tainanConvention.jpg'
+  },{
+    time: '11:45', 
+    title: 'Lunch', 
+    location: 'Just Café', 
+    description: `The hotel restaurant provides a fresh and multi-choice breakfast menu, light breakfast like bread, salad, fruit, with specially added old city (Fucheng) street food. As for the brand-new lunch and dinner project, the menu is built by a star rated Chef from Silks Place Tainan. Interior is designed in nostalgic old Taiwan Fucheng style: red brick and dark-blue tiles.`,
+    image: 'D3十鼓捷食藝2.jpg'
+  },{
+    time: '13:00', 
+    title: 'Just Sleep Tainan Ten-Drum (Sight visit, not accommodation for the day)', 
+    location: 'Hotel Show-room', 
+    description: `Brand new hotel opened in 2021, the 9th hotel of the “Just sleep” collection in Taiwan under the Silks Hotel Group. Under two years construction and over 25 million US dollar investment. With the name Ten-Drum, which is an art group that speaks Taiwanese culture through drum art. This profoundly humane building blends elements from a modern hotel with local cultural character, it is only a 15-minute ride away from both downtown and the high-speed railway Tainan station. The only hotel in Taiwan built under a vintage sugar factory theme; the 129 units, including 113 guest rooms and 16 suites, are in 8 different room-type for your choice. The hotel is equipped with multi-purpose conference rooms and ballrooms, the multi-purpose ballroom space at the top of the building is highly recommended for business meetings and small banquets.`,
+    image: 'D3十鼓捷絲旅2.jpg'
+  },{
+    time: '14:00', 
+    title: 'Team Building', 
+    location: 'Traditional Incense Experience', 
+    description: `The incense maker in the 100-year-old “Wu Wan-Chun” incense represents Taiwanese philosophy of life. Incense creates humble dialog between the mortals and the gods. In this course, Mr. Wu, the 4th generation, will teach you how to hand make incense by team work.`,
+    image: 'D3wuwan.jpeg'
+  },{
+    time: '18:00', 
+    title: 'Dinner', 
+    location: 'Silks Place Pavilion', 
+    description: `This restaurant in the hotel Silks Place Tainan provides a private suite with 20 individual capacities. Roasted duck 7 ways is their signature dish, alongside Fucheng (old town) A-Sha dish. A-Sha is an old expression that indicates dishes which only rich people can afford due to the precious and expensive ingredients; the restaurant wishes to contribute to a trend of Fucheng cuisine. Related administration invited an old Taiwanese cuisine successor to coach in the kitchen.The team led by executive chef Wei-Chiang Lu strives to recreate the fine Fucheng A-Sha feast, leading the guest back to Taiwanese cuisine's glorious history.`,
+    image: 'D3Thomas Chien.jpg'
+  },
+  {
+    time: '20:30', 
+    title: 'Check-in', 
+    location: 'Silks Place Tainan', 
+    description: `Silks Place Tainan owns 1692 units at its guest’s choice. It is a business/resort combined 5-star hotel, with the only conference hall/ballroom in Taiwan that could contain up to a thousand guests. The hotel functions in both resort mode and business mode. Breakfast provided by the hotel kitchen serves Tainan specialties, such as sticky rice topped with minced pork and Danzai noodles, giving business travelers a chance to have a bite of Tainan’s local taste if the time is too short to go out to the streets. The hotel sits at a cultural area of Tainan city, guests could walk to the business circle around Confucian Temple. Shopping mall nearby for guests to visit, along with all other commercial features.`,
+    image: 'D3台南晶英2.jpg'
   },]
 }]
 export default function BasicTabs() {
