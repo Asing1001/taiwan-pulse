@@ -44,8 +44,8 @@ function App() {
               }}
             >
               <BottomNavigationAction label="Schedule" icon={<EventNoteIcon />} />
-              <BottomNavigationAction label="Introduction" icon={<MenuBookIcon />} />
-              <BottomNavigationAction label="Spotlight" icon={<AutoAwesomeIcon />} />
+              <BottomNavigationAction label="Venus" icon={<MenuBookIcon />} />
+              <BottomNavigationAction label="MICE Taiwan" icon={<AutoAwesomeIcon />} />
             </BottomNavigation>
           </Paper>
         </Box>
