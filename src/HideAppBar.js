@@ -46,7 +46,7 @@ export default function HideAppBar(props) {
               <IconButton >
               <img src='/logo192.png' height="32px" alt='logo' />
               </IconButton>
-              Taiwan Pulse
+              Taiwan PULSE
             </Typography>
             <Box sx={{ flexGrow: 0 }}>
               <IconButton onClick={()=> window.open('tel:+886921056714', '_self')}>
