@@ -41,12 +41,12 @@ export default function HideAppBar(props) {
       <CssBaseline />
       <HideOnScroll {...props}>
         <AppBar>
-          <Toolbar sx={{ justifyContent: "space-between" }}>
+          <Toolbar sx={{ justifyContent: "space-between", backgroundImage: 'url("/02_APP banner_01.jpg")', backgroundSize: 'cover', backgroundPosition: "center" }}>
             <Typography variant="h6" component="div" fontWeight={"bold"}>
-              <IconButton >
+              {/* <IconButton >
               <img src='/logo192.png' height="32px" alt='logo' />
               </IconButton>
-              Taiwan PULSE
+              Taiwan PULSE */}
             </Typography>
             <Box sx={{ flexGrow: 0 }}>
               <IconButton onClick={()=> window.open('tel:+886921056714', '_self')}>
