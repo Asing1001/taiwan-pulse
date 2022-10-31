@@ -57,7 +57,7 @@ export default function OppositeContentTimeline({ title, schedules }) {
                     image={`/trip/${image}`}
                     alt="Live from space album cover"
                   />}
-                  <Typography>{description}</Typography>
+                  <Typography sx={{mt: 2}}>{description}</Typography>
                 </AccordionDetails>}
               </Accordion>
             </TimelineContent>
