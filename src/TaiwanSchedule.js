@@ -45,7 +45,7 @@ const days = [{
     title: 'Dinner & Local government meeting', 
     location: 'My灶 (Zao)', 
     description: `The Chinese character pronounced "Zao" indicates the stove to cook on, the owner means to say "My Kitchen" when naming the restaurant, fun fact here: it sounds like “don’t go" in Taiwanese dialog, which also says how delicious the dishes here taste. The Michelin recommended diner has a vintage interior design that creates Taiwan's street atmosphere in the 1960s. Under the streetlamp that shines the light from the past, it feels just like the good old days 50 years ago. Chef chooses the best ingredients and seasons lightly, to bring out the earthy taste of the food.`,
-    image: ''
+    image: 'D1My灶.jpeg'
   },{
     time: '20:00', 
     title: 'Check-in', 
@@ -61,7 +61,7 @@ const days = [{
     title: 'Meeting up at lobby', 
     location: 'Take HSR to Kaohsiung', 
     description: `Take HSR (08:31AM) to Kaohsiung (10:05AM)`,
-    image: 'D1My灶.jpeg'
+    image: ''
   },{
     time: '10:40', 
     title: 'Touring & Local government meeting', 
