@@ -146,6 +146,45 @@ const days = [{
     description: `Silks Place Tainan owns 1692 units at its guest’s choice. It is a business/resort combined 5-star hotel, with the only conference hall/ballroom in Taiwan that could contain up to a thousand guests. The hotel functions in both resort mode and business mode. Breakfast provided by the hotel kitchen serves Tainan specialties, such as sticky rice topped with minced pork and Danzai noodles, giving business travelers a chance to have a bite of Tainan’s local taste if the time is too short to go out to the streets. The hotel sits at a cultural area of Tainan city, guests could walk to the business circle around Confucian Temple. Shopping mall nearby for guests to visit, along with all other commercial features.`,
     image: 'D3台南晶英2.jpg'
   },]
+},{
+  title:'Day4',
+  schedules: [{
+    time: '09:00', 
+    title: 'Meeting-up', 
+    location: 'Meeting at hotel lobby to start the day.', 
+    description: `Meeting at hotel lobby to start the day.`,
+    image: ''
+  },{
+    time: '09:15', 
+    title: 'Walking tour', 
+    location: 'Lin Department Store, Confucius Temple, Taiwan Judicial Museum', 
+    description: `Places for guests staying at the hotel to visit and enjoy: walk into the ancient capital and feel the atmosphere of people's lifestyle in Tainan. Taste the street food, and shop at the Lin Department Store; it's a humane and cultural department store opened in the middle Japanese colonial period in 1932, the first department store in south Taiwan. The Confucius Temple is something you don't want to miss if you first visit Taiwan, it tells the history at the end of the Ming dynasty, and the beginning of the Qing dynasty. Step on the land of Tainan, see the monuments, only then you will come to understand Taiwanese culture.`,
+    image: 'D3林百貨.jpeg'
+  },{
+    time: '12:00', 
+    title: 'Lunch & Commute', 
+    location: 'Take HSR (12:41PM) to Taipei (14:39)', 
+    description: `Experience High-Speed-Railway Lunch box. Precious opportunity for guests to experience the unique dining culture during transportation. In your business class cabin, choose your “Bendo” with different main proteins: soy sauce-braised ribs, roasted chicken thigh or vegetarian. The mobile mini food truck also provides red tea, green tea or KIRIN bear to your liking. For dessert there is either fruit yogurt or Longan honey cake. Taste these little happiness during traffic like a true Taiwanese.`,
+    image: ''
+  },{
+    time: '15:15', 
+    title: 'Experience', 
+    location: 'Taipei 101 Skyline460', 
+    description: `See Taipei from new heights! Let’s get to THE 101st floor of Taipei 101 to experience "walk along the clouds" safely with proper safety equipment and capture the moment with the building's perfectly placed, pre-installed camera.`,
+    image: 'D4101Skyline.jpg'
+  },{
+    time: '16:30', 
+    title: 'Local government meeting', 
+    location: 'Taipei 101 New Conference Space ', 
+    description: `Taipei 101 team will present the new project - the highest conference spaces in Taiwan in 2023. Besides, Taipei governments will share coming plans and development of the city. `,
+    image: ''
+  },{
+    time: '18:30', 
+    title: 'Dinner', 
+    location: 'Ding Tai Fung 101', 
+    description: `Ex Michelin Star Restaurant, the world-renowned Chinese restaurant originating in Taiwan that specializes in soup dumplings and noodles. Finish the evening at Taipei's most iconic restaurant, famous for its soup dumplings (xiaolongbao).`,
+    image: 'D4鼎泰豐.jpg'
+  },]
 }]
 export default function BasicTabs() {
   const [value, setValue] = React.useState(0);
