@@ -29,7 +29,7 @@ function App() {
       {value !== 2 && <HideAppBar />}
       <Container maxWidth="sm" className="safe-top">
 
-        <Box sx={{mb:10}}>
+        <Box sx={{mb:20}}>
         {value === 0 && <TaiwanSchedule />}
         {value === 1 && <Introduction />}
         {value === 2 && <Spotlight />}
