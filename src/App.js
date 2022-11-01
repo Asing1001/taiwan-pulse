@@ -18,7 +18,7 @@ import './App.css'
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
-  },spacing:4
+  }, spacing: 4
 });
 
 function App() {
@@ -29,13 +29,13 @@ function App() {
       {value !== 2 && <HideAppBar />}
       <Container maxWidth="sm" className="safe-top">
 
-        <Box sx={{mb:20}}>
-        {value === 0 && <TaiwanSchedule />}
-        {value === 1 && <Introduction />}
-        {value === 2 && <Spotlight />}
+        <Box sx={{ mb: 20 }}>
+          {value === 0 && <TaiwanSchedule />}
+          {value === 1 && <Introduction />}
+          {value === 2 && <Spotlight />}
         </Box>
         <Box>
-          <Paper className="safe-bottom" sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
+          <Paper className="safe-bottom" sx={{ position: 'fixed', bottom: 0, left: 0, right: 0, backgroundImage: 'none' }} elevation={3}>
             <BottomNavigation
               showLabels
               value={value}
