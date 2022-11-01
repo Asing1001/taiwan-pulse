@@ -137,7 +137,7 @@ const days = [{
     title: 'Dinner', 
     location: 'Silks Place Pavilion', 
     description: `This restaurant in the hotel Silks Place Tainan provides a private suite with 20 individual capacities. Roasted duck 7 ways is their signature dish, alongside Fucheng (old town) A-Sha dish. A-Sha is an old expression that indicates dishes which only rich people can afford due to the precious and expensive ingredients; the restaurant wishes to contribute to a trend of Fucheng cuisine. Related administration invited an old Taiwanese cuisine successor to coach in the kitchen.The team led by executive chef Wei-Chiang Lu strives to recreate the fine Fucheng A-Sha feast, leading the guest back to Taiwanese cuisine's glorious history.`,
-    image: 'D3Thomas Chien.jpg'
+    image: 'D3Silk.jpg'
   },
   {
     time: '20:30', 
@@ -173,11 +173,11 @@ const days = [{
     description: `See Taipei from new heights! Let’s get to THE 101st floor of Taipei 101 to experience "walk along the clouds" safely with proper safety equipment and capture the moment with the building's perfectly placed, pre-installed camera.`,
     image: 'D4101Skyline.jpg'
   },{
-    time: '16:30', 
+    time: '17:00', 
     title: 'Local government meeting', 
-    location: 'Taipei 101 New Conference Space ', 
-    description: `Taipei 101 team will present the new project - the highest conference spaces in Taiwan in 2023. Besides, Taipei governments will share coming plans and development of the city. `,
-    image: ''
+    location: 'iRide Immersive Adventure', 
+    description: `An audio-visual feast in a three-story-high dome screen with special effects of wind, water and odor to achieve an experience of five senses through visual, auditory, olfactory, tactile sensations and displacement.`,
+    image: 'D4iride.jpg'
   },{
     time: '18:30', 
     title: 'Dinner', 
