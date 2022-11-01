@@ -1,4 +1,4 @@
-export const industry = [
+export const fam = [
   {
     "title": "Day1",
     "schedules": [

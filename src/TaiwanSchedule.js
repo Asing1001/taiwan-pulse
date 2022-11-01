@@ -5,7 +5,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import TaiwanTimeline from "./TaiwanTimeline";
-import { industry } from "./trip/industry";
+import { fam } from "./trip/fam";
 import { media } from "./trip/media";
 
 function TabPanel(props) {
@@ -43,9 +43,9 @@ function a11yProps(index) {
 
 export default function BasicTabs() {
   const [value, setValue] = React.useState(0);
-  const isIndustry = window.location.host.includes('industry')
-  const days = isIndustry ? industry : media
-  days.forEach(day => { day.imageFolder = isIndustry ? 'industry' : 'media' })
+  const isFAM = window.location.host.includes('fam')
+  const days = isFAM ? fam : media
+  days.forEach(day => { day.imageFolder = isFAM ? 'fam' : 'media' })
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
