@@ -13,7 +13,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import CardMedia from '@mui/material/CardMedia';
 import Box from '@mui/material/Box';
 
-export default function OppositeContentTimeline({ title, schedules }) {
+export default function OppositeContentTimeline({ title, imageFolder, schedules }) {
   return (
     <React.Fragment>
       <Timeline
@@ -54,7 +54,7 @@ export default function OppositeContentTimeline({ title, schedules }) {
                 {description &&<AccordionDetails>
                   {image && <CardMedia
                     component="img"
-                    image={`/trip/${image}`}
+                    image={`/${imageFolder}/${image}`}
                     alt="Live from space album cover"
                   />}
                   <Typography sx={{mt: 2}}>{description}</Typography>
