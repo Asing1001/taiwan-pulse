@@ -104,8 +104,10 @@ export const fam = [
         "time": "11:00",
         "title": "Lunch & Touring",
         "location": "The National Kaohsiung Center for the Arts (Weiwuying)",
-        "description": "Sits on a 9.9 hectare lot and occupies a floor area of 3.3 hectares.Inspired by the beauty of the local banyan trees and their iconic canopies of leaves, architect Francine Houben's design is an undulating structure composed of a unique skin that can withstand the humidity and salinity in Kaohsiung – a port city – thanks to a collaborative effort with the city's shipbuilders, and a roof under which generous free spaces can flow. In consideration of southern Taiwan's tropical climate and people's love for outdoor night activities, the Center has a fence-free plaza on the grounds that is accessible 24 hours a day for strolling, relaxing and much more, creating a breezy and welcoming space in which theater and music become part of everyday life. The Center opened on October 13th 2018 and is now operating all-year round , developing and bringing local as well as international talents to southern Taiwan.",
-        "image": "Stage 5 "
+        "description": `Sits on a 9.9 hectare lot and occupies a floor area of 3.3 hectares.Inspired by the beauty of the local banyan trees and their iconic canopies of leaves, architect Francine Houben's design is an undulating structure composed of a unique skin that can withstand the humidity and salinity in Kaohsiung – a port city – thanks to a collaborative effort with the city's shipbuilders, and a roof under which generous free spaces can flow. In consideration of southern Taiwan's tropical climate and people's love for outdoor night activities, the Center has a fence-free plaza on the grounds that is accessible 24 hours a day for strolling, relaxing and much more, creating a breezy and welcoming space in which theater and music become part of everyday life. The Center opened on October 13th 2018 and is now operating all-year round , developing and bringing local as well as international talents to southern Taiwan.  `,
+        // Stage 5 
+        // “The fifth stage” of the WeiWuYin National Kaohsiung Centre for the Arts where they take an artistic approach to food. Over the past 17 years, Stage 5 Chef Tsai Chung Ho has learned French Cuisine in Taiwan, Australia and England. By returning back to his hometown Kaohsiung and the heart of cooking, pursing to bring out the essence of ingredients and flavors.
+        "image": ""
       },
       {
         "time": "15:00",
