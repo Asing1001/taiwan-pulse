@@ -21,7 +21,7 @@ export const media = [{
     title: 'Meeting up at lobby', 
     location: 'Take HSR to Kaohsiung', 
     description: `Take HSR (08:31AM) to Kaohsiung (10:05AM)`,
-    image: ''
+    image: 'HSR.jpeg'
   },{
     time: '10:40', 
     title: 'Touring & Local government meeting', 
@@ -125,7 +125,7 @@ export const media = [{
     title: 'Lunch & Commute', 
     location: 'Take HSR (12:41PM) to Taipei (14:39)', 
     description: `Experience High-Speed-Railway Lunch box. Precious opportunity for guests to experience the unique dining culture during transportation. In your business class cabin, choose your “Bendo” with different main proteins: soy sauce-braised ribs, roasted chicken thigh or vegetarian. The mobile mini food truck also provides red tea, green tea or KIRIN bear to your liking. For dessert there is either fruit yogurt or Longan honey cake. Taste these little happiness during traffic like a true Taiwanese.`,
-    image: ''
+    image: 'HSR.jpeg'
   },{
     time: '15:15', 
     title: 'Experience', 
