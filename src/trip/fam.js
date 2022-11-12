@@ -51,7 +51,7 @@ export const fam = [
       {
         "time": "12:30",
         "title": "Lunch",
-        "location": "Thomas Chien",
+        "location": "La One Cafe",
         "description": "Michelin selected restaurant, founder Thomas Chien has experiences throughout the culinary world in Taiwan and over-seas. Studied in Ecole Lenotre and hosted grand events with world-wide famous chefs like Christian le Squer, Alain Passard. He perfectly combined French cuisine technique with local Taiwanese ingredients to present a light style French dish, representing south Taiwan’s sea food advantage.",
         "image": "D2Thomas Chien.jpg"
       },
